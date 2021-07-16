@@ -24,7 +24,7 @@ function App() {
         
         const apiId = "ea46575b32425cc69e9e99a914c668c0";
 
-        const url = `http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiId}`;
+        const url = `https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${apiId}`;
 
         const respuesta = await fetch(url);
 
