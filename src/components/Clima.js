@@ -20,14 +20,14 @@ const Clima = ({ name, main }) => {
           </h2>
 
           <h6 className="card-subtitle text-center p-2 ">
-            Temperatura Máxima 
+            Temperatura Máxima: 
             {parseFloat(main.temp_max - calckelvin, 10).toFixed(2)}{" "}
             <span> &#x2103; </span>
           </h6>
 
 
           <h6 className="card-subtitle text-center p-2">
-            Temperatura Minima 
+            Temperatura Minima:  
             {parseFloat(main.temp_min - calckelvin, 10).toFixed(2)}{" "}
             <span> &#x2103; </span>
           </h6>
